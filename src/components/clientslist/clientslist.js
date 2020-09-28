@@ -12,7 +12,7 @@ const ClientsList = () => {
   console.log(clients)
 
   const renderClientsList = clients.map((client, i) => 
-    <Box width={[1/2, 1/4, 1/6]}>
+    <Box width={[1/2, 1/4, 1/6]} key={i}>
       {/* <p>{client}</p> */}
       <Image filename={client} alt={client} key={i} />
     </Box>

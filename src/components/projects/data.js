@@ -17,11 +17,11 @@ export const data = {
       "videos": [
         {
           "country": "Australia",
-          "video": "wc-2014-australia",
+          "video": "wc-2014-australia.mp4",
         },
         {
           "country": "Uruguay",
-          "video": "wc-2014-uruguay",
+          "video": "wc-2014-uruguay.mp4",
         },
         {
           "country": "Iran",
@@ -100,7 +100,7 @@ export const data = {
         },
         {
           "country": "Australia",
-          "video": "wc-2010-austrailia.mp4",
+          "video": "wc-2010-australia.mp4",
         },
         {
           "country": "Paraguay",
@@ -143,7 +143,7 @@ export const data = {
       "videos": [
 	      {
           "country": "World Cup Germany 2006",
-	        "video": "../../videos/wc_2006s.mp4",
+	        "video": "wc-2006.mp4",
 	      },
       ],
     },

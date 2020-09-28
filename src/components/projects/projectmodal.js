@@ -116,6 +116,7 @@ const ProjectModal = (props) => {
     return (
       <VideoBox width={[1, null, 1/2]} className={`${i % 2 === 0 ? 'left' : 'right'}`} key={i}>
         <p>{vid.country}</p>
+        {/* <p>{vid.video}</p> */}
         {/* eslint-disable */}
         <video width="320" height="240" controls>
           <source src={videoMap[vid.video]} type="video/mp4" />
