@@ -9,6 +9,7 @@ import CloseIcon from "../../icons/close-black.svg"
 import EuroP1 from "../../videos/euro-part-1.mp4"
 import EuroP2 from "../../videos/euro-part-2.mp4"
 import Euro2012 from "../../videos/euro-2012.mp4"
+import WC2006 from "../../videos/wc-2006.mp4"
 import WC2010Algeria from "../../videos/wc-2010-algeria.mp4"
 import WC2010Argentina from "../../videos/wc-2010-argentina.mp4"
 import WC2010Australia from "../../videos/wc-2010-australia.mp4"
@@ -88,6 +89,7 @@ const ProjectModal = (props) => {
     "euro-part-1.mp4": EuroP1,
     "euro-part-2.mp4": EuroP2,
     "euro-2012.mp4": Euro2012,
+    "wc-2006.mp4": WC2006,
     "wc-2010-algeria.mp4": WC2010Algeria,
     "wc-2010-argentina.mp4": WC2010Argentina,
     "wc-2010-australia.mp4": WC2010Australia,

@@ -56,7 +56,7 @@ export const data = {
       "copy": "Leading up to the EURO 2012 we shot interviews with superstars like Gianluigi Buffon and Thomas Mueller, went to see the Polish team in Poland, met Denmark's rising star Christian Eriksen, did the ultimate home story with Andryi Shevchenko - you have never seen him so up close and personal! The list goes on and on: Giovanni Trapattoni, Slaven Bilic, Mats Hummels, Cesare Prandelli, Morten Olsen, Ivan Rakitic, Giorgos Karagounis, Robert Lewandowski and many more sat down with us for in-depth interviews and exclusive reports.",
       "videoheading": "",
 	    "videos": [
-        "wc-2014-africa.mp4",
+        "euro-2012.mp4",
       ]
 	  },
     {
