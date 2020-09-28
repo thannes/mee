@@ -41,6 +41,7 @@ const ContactsPage = () => (
           <p>
             <label><span>Message</span><textarea name="message"></textarea></label>
           </p>
+          <div data-netlify-recaptcha="true"></div>
           <p>
             <button type="submit" className="btn primary">Submit</button>
           </p>
