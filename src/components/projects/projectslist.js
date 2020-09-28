@@ -51,7 +51,7 @@ const ProjectsList = (props) => {
           </ImageBox>
           <ContentBox width={[3/4, null, 5/6]}>
             <h2>{project.name}</h2>
-            <p>{project.copy.substring(0, 100)}{`...`}</p>
+            <p>{project.copy.substring(0, 175)}{`...`}</p>
             <button onClick={() => setSelectedProject(i)}>{`Read more`}</button>
           </ContentBox>
         </ProjectCard>

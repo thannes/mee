@@ -1,7 +1,6 @@
 import React from "react"
 import Image from "../image"
-// import { Link } from "gatsby"
-import { Flex } from "reflexbox"
+import { Flex, Box } from "reflexbox"
 // import styled from "styled-components"
 
 import { data } from "./data"
@@ -13,12 +12,15 @@ const ClientsList = () => {
   console.log(clients)
 
   const renderClientsList = clients.map((client, i) => 
-    <Image filename={client} alt={client} key={i} />
+    <Box width={[1/2, 1/4, 1/6]}>
+      {/* <p>{client}</p> */}
+      <Image filename={client} alt={client} key={i} />
+    </Box>
   )
 
   return (
     <div className="container">
-      <Flex flexwrap="wrap">
+      <Flex flexWrap="wrap">
         {renderClientsList}
       </Flex>
     </div>

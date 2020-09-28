@@ -618,6 +618,7 @@ ul {
   text-align: center;
   border-radius: 10px;
   text-transform: uppercase;
+  border: none;
 }
 .btn.primary {
   background: #183C6B;
@@ -646,4 +647,10 @@ main {
   main {
     min-height: calc(100vh - 265px);
   }
+}
+
+video {
+  /* override other styles to make responsive */
+  width: 100%    !important;
+  height: auto   !important;
 }

@@ -143,7 +143,7 @@ export const data = {
       "videos": [
 	      {
           "country": "World Cup Germany 2006",
-	        "video": "wc_2006s.mp4",
+	        "video": "../../videos/wc_2006s.mp4",
 	      },
       ],
     },

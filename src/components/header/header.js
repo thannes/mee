@@ -6,7 +6,7 @@ import styled from "styled-components"
 import Navigation from "../navigation"
 
 const HeaderWrap = styled.header`
-  background: #000;
+  background: #2d2d2d;
 `
 const HeaderFlex = styled(Flex)`
   height: 100px;

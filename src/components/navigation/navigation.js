@@ -42,7 +42,7 @@ const Menu = styled(Flex)`
   }
   @media (min-width: 768px) {
     display: flex !important;
-    background: #000;
+    background: transparent;
     width: 100%;
     padding: 25px 0;
   }
@@ -71,6 +71,9 @@ const Navigation = () => {
           </Box>
           <Box width={[1, null, 1/5]} className="link-holder">
             <Link to="/contacts">{`Contact`}</Link>
+          </Box>
+          <Box width={[1, null, 1/5]} className="link-holder">
+            <Link to="/blog">{`Blog`}</Link>
           </Box>
         </Menu>
       </Flex>
